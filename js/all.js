@@ -23,7 +23,7 @@ function getFilename() {
 
 btn.addEventListener("click",function(e){
     //輸入的值為 keyword.value
-    let num=0;
+    let num=-1;
     let weight=[];
 
     
@@ -37,7 +37,7 @@ btn.addEventListener("click",function(e){
         
         strAry1.forEach(function(item,index){
             if(word === item){
-                num += index;              
+                num += index+1;              
             }
         })
 
@@ -47,14 +47,15 @@ btn.addEventListener("click",function(e){
         var strAry2 = ary2.split('\n');
         strAry2.forEach(function(item,index){
             strAry2[index]=strAry2[index].split(' ');
-        })
+        }
         strAry2.forEach(function(item,index){
+            if(num != -1){
             if((item[num] !=0) && (item[num] != undefined)){
                 let a=[];
                 a.push(parseFloat(item[num]));
                 a.push(index);
                 weight.push(a);
-            }
+            }}
         })
 
         // getFile
