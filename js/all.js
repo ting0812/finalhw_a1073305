@@ -49,7 +49,7 @@ btn.addEventListener("click",function(e){
             strAry2[index]=strAry2[index].split(' ');
         }
         strAry2.forEach(function(item,index){
-            if(num != -1){
+            if(num != ){
                 if((item[num] !=0) && (item[num] != undefined)){
                     let a=[];
                     a.push(parseFloat(item[num]));
