@@ -1,0 +1,53 @@
+body{
+    background: #FFDC35;
+}
+.content{
+    background: rgb(255, 255, 255, 0.5);
+    max-width: 600px;
+    padding: 50px;
+    margin: 30px auto;
+    border-radius: 20px;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.inputbox{
+    text-align: center;
+    max-width: 90%;
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+}
+.keyword{
+    width: 70%;
+    font-size: 20px;
+    padding: 6px;
+    border-radius: 5px;
+}
+.btn{
+    font-size: 20px;
+    padding: 4px;
+    cursor: pointer;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+.btn:hover{
+    background: #000;
+    color: #FFDC35;
+    font-weight: 600;
+}
+.list{
+    width: 375px;
+    margin: 0 auto;
+    border-radius: 5px;
+    background: rgb(255, 255, 255, 0.5);
+}
+.list li{
+    border-bottom: 3px solid #f0d654;
+    padding: 10px;
+    font-size: 16px;
+    
+}
