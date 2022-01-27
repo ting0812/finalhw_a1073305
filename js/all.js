@@ -36,7 +36,7 @@ btn.addEventListener("click",function(e){
         var strAry1 = ary1.split('\n');
         
         strAry1.forEach(function(item,index){
-            if(word === item){
+            if(word == item){
                 num += index+1;              
             }
         })
