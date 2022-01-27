@@ -12,13 +12,13 @@ function init(data){
 }
 
 function getWord1475() {
-    return axios.get('https://a1073315.github.io/Information-Retrieval/txt/word1475.txt');
+    return axios.get('https://ting0812.github.io/finalhw_a1073305/txt/word1475.txt');
 }
 function getWeight1() {
-    return axios.get('https://a1073315.github.io/Information-Retrieval/txt/weight1.txt');
+    return axios.get('https://ting0812.github.io/finalhw_a1073305/txt/weight1.txt');
 }
 function getFilename() {
-    return axios.get('https://a1073315.github.io/Information-Retrieval/txt/filename.txt');
+    return axios.get('https://ting0812.github.io/finalhw_a1073305/txt/filename.txt');
 }
 
 btn.addEventListener("click",function(e){
